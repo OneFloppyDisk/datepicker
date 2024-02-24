@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  align-content: center;
 }
 
 .App-logo {
@@ -35,4 +40,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.kutyaszunyog{
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  align-content: center;
+}
+
+.behuz{
+  max-width: 5%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  align-content: center;
 }
