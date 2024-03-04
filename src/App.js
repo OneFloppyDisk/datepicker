@@ -5,6 +5,8 @@ import 'react-datepicker/dist/react-datepicker.css';
 import setHours from "date-fns/setHours";
 import setMinutes from "date-fns/setMinutes";
 
+import DatePlanner from "./src/components/daterequest";
+
 function App() {
   /*
   1. verzió
@@ -33,7 +35,7 @@ function App() {
       className="kutyaszunyog"
     />
   );
-  */
+  
 
   const [startDate, setStartDate] = useState(
     setHours(setMinutes(new Date(), 30), 16),
@@ -58,6 +60,9 @@ function App() {
     </div>
 
   );
+  */
+
+        <DatePlanner/>
 }
 
 export default App;
