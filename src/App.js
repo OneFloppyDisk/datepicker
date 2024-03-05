@@ -1,14 +1,14 @@
 import './App.css';
-import React, {useState, forwardRef} from 'react';
-import DatePicker from "react-datepicker";
-import 'react-datepicker/dist/react-datepicker.css';
-import setHours from "date-fns/setHours";
-import setMinutes from "date-fns/setMinutes";
+import React from 'react';
 
-import DatePlanner from "./src/components/daterequest";
+import DatePlanner from "./components/dateplanner";
 
 function App() {
   /*
+  import DatePicker from "react-datepicker";
+  import 'react-datepicker/dist/react-datepicker.css';
+  import setHours from "date-fns/setHours";
+  import setMinutes from "date-fns/setMinutes";
   1. verzió
   const [startDate, setDate] = useState(null);
   return (
