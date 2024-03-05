@@ -62,7 +62,7 @@ function App() {
   );
   */
 
-        <DatePlanner/>
+  <DatePlanner />
 }
 
 export default App;
